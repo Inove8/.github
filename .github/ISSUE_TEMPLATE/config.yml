@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💼 Work with Inove8
+    url: https://www.inove8.com/contact?utm_source=github&utm_medium=issue_template
+    about: Have a project in mind? Book a discovery call — we reply within one business day.
+  - name: 🔐 Report a security vulnerability
+    url: https://www.inove8.com/contact
+    about: Please email hello@inove8.com with subject "SECURITY" instead of opening a public issue.
