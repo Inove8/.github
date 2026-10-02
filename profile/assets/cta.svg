@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="200" viewBox="0 0 1200 200" role="img" aria-label="Have a project in mind? Book a discovery call at inove8.com">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ff8020"/>
+      <stop offset="1" stop-color="#ffa64d"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="1200" height="200" rx="22"/></clipPath>
+    <style>
+      .f{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+      .shine{animation:sh 5s ease-in-out infinite}
+      @keyframes sh{0%{transform:translateX(-400px)}60%,100%{transform:translateX(1600px)}}
+      .arrow{animation:nudge 1.6s ease-in-out infinite}
+      @keyframes nudge{50%{transform:translateX(6px)}}
+    </style>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="200" fill="url(#g)"/>
+    <rect class="shine" x="0" y="-50" width="120" height="300" fill="#ffffff" opacity="0.18" transform="skewX(-20)"/>
+    <circle cx="1120" cy="20" r="140" fill="#ffffff" opacity="0.08"/>
+    <g class="f">
+      <text x="64" y="86" font-size="40" font-weight="800" fill="#0b0b0b" letter-spacing="-0.8">Have a project in mind?</text>
+      <text x="64" y="128" font-size="19" fill="#2b1a0c">Tell us what you're building — we reply within one business day.</text>
+    </g>
+    <g class="f" transform="translate(860 70)">
+      <rect x="-20" width="300" height="60" rx="30" fill="#0b0b0b"/>
+      <text x="12" y="38" font-size="19" font-weight="700" fill="#ffffff">Book a Discovery Call</text>
+      <g class="arrow"><path d="M232 30h16m-6-6 6 6-6 6" stroke="#ff8020" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+    </g>
+  </g>
+</svg>
